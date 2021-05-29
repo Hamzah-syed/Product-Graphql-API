@@ -11,7 +11,7 @@ type Product @aws_api_key @aws_cognito_user_pools {
 input ProductInput {
   id: ID
   name: String!
-  dexription: String!
+  description: String!
   price: Float!
   category: String!
   sku: String
@@ -21,7 +21,7 @@ input ProductInput {
 input UpdateProductInput {
   id: ID!
   name: String
-  dexription: String
+  description: String
   price: Float
   category: String
   sku: String
